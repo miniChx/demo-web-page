@@ -1,0 +1,84 @@
+﻿/*重置属性*/
+html, body {
+    font-size:10px;
+    background:#fff;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -moz-user-select: none; /* for Firefox */
+    -webkit-user-select: none; /* for Chrome */
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden; /*消除transition闪屏*/
+    -webkit-transform-style: preserve-3d; /*消除transition闪屏*/
+    -ms-touch-action: none; /* 禁止winphone默认触摸事件 */
+}
+
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100% !important; /*ios禁止调整字体大小*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    background-clip: padding-box; /*某些Android手机圆角失效*/
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+/*去除input自动填充的黄色背景*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+img {
+    display: block;
+    border: none;
+}
+
+p, a, span, h1, h2, h3, h4, h5, h6, ul, li, form, table, tbody, tr, td, dl, dt, dd, i, figure, figcaption, article {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+    color: #666;
+    letter-spacing: 1px;
+    line-height:1.7;
+}
+h1{font-size:1.8rem;}
+h2{font-size:1.7rem;}
+h3{font-size:1.6rem;}
+h4{font-size:1.5rem;}
+h5{font-size:1.4rem;}
+h6{font-size:1.3rem;}
+p{font-size:1.2rem;}
+span{font-size:1rem;}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+select, button, input, textarea, mark {
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+a, button, input, textarea, select {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+Element {
+    -webkit-appearance: none; /*iphone及ipad下输入框默认内阴影*/
+    -webkit-transform: translate3d(0, 0, 0); /*动画定义3D启用硬件加速*/
+    transform: translate3d(0, 0, 0); /*动画定义3D启用硬件加速*/
+}
+

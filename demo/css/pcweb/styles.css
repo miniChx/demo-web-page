@@ -1,0 +1,152 @@
+body {
+	position:relative;
+	background: #050c19;
+}
+#canvas{
+	position: absolute;
+	top: 0;
+}
+footer{
+	background: #050c19;
+	padding: 20px 0 10px;
+}
+footer *{
+	text-align: center;
+	color:#fff;
+}
+/**/
+section{
+	position:absolute;
+	top:100%;
+	width:100%;
+	background:#fff;
+}
+article{
+	width:100%;
+	overflow:hidden;
+	background:#f1f1f1;
+	margin-bottom: 2rem;
+}
+.left_half{
+	width: 50%;
+	float: left;
+	//background: #fbed6b;
+}
+.right_half{
+	width: 50%;
+	float: right;
+	//background: #f06;
+}
+.stars_title_box{
+	position:relative;
+	width:22rem;
+	height:5rem;
+	padding-top: 1rem;
+	margin:0 auto;
+	//background:#f06;
+}
+.stars_title_box img{
+	width:5rem;
+}
+.left_mark{
+	float:left;
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);	
+}
+.right_mark{
+	float:right;
+}
+.star_title{
+	font-size: 3rem;
+	color: #4a6791;
+	font-weight: bold;
+	position:absolute;
+	left:1.9rem;
+	top:-.3rem;
+}
+/*page1*/
+.page1 figure figcaption{
+	font-size:2.5rem;
+	line-height: 2rem;
+	font-weight:bold;
+	padding-left:1rem;
+}
+.text_1 figcaption{
+	color:#4cc4b8;
+	border-left:3px solid #4cc4b8; 
+}
+.text_2 figcaption{
+	color:#70c8ff;
+	border-left:3px solid #70c8ff;
+}
+.text_3 figcaption{
+	color:#ff80c8;
+	border-left:3px solid #ff80c8;
+}
+.text_4 figcaption{
+	color:#b7d989;
+	border-left:3px solid #b7d989;
+}
+/**/
+.page1 .text_cont{
+	width:20rem;
+	padding:3px;	
+	margin: .5rem 0 2rem 0;
+}
+.page1 h2{
+	width:100%;
+	color:#fff;
+	line-height:2.5;
+	font-weight:bold;
+	padding-left:1rem;	
+}
+.text_1 .text_cont{
+	border: 2px solid #4cc4b8;
+}
+.text_1 h2{
+	background:#4cc4b8;
+}
+.text_2 .text_cont{
+	border: 2px solid #70c8ff;
+}
+.text_2 h2{
+	background:#70c8ff;
+}
+.text_3 .text_cont{
+	border: 2px solid #ff80c8;
+}
+.text_3 h2{
+	background:#ff80c8;
+}
+.text_4 .text_cont{
+	border: 2px solid #b7d989;
+}
+.text_4 h2{
+	background:#b7d989;
+}
+/*page2*/
+
+.culture_box{
+	width:54rem;
+	margin:0 auto;
+}
+.culture_item{
+	display: -webkit-box;
+	display:-webkit-flex;
+	display:flex;		
+	margin:3rem 0;
+}
+.item_text{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	flex:1;
+	width:0%;
+}
+.item_text h3{
+	line-height:4rem;
+}
+.culture_item img{
+	width:8rem;
+	height:8rem;
+	margin-right: 3rem;
+}

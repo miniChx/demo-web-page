@@ -1,0 +1,260 @@
+﻿/*********************css动画*********************/
+/*果冻弹出*/
+@keyframes divzoom {
+    0%{transform:scale(0.01)}
+	60%{transform:scale(1.05)}
+	80%{transform:scale(0.95)}
+	100%{transform:scale(1.00)}
+}
+@-webkit-keyframes divzoom{
+	0%{-webkit-transform:scale(0.01)}
+	60%{-webkit-transform:scale(1.05)}
+	80%{-webkit-transform:scale(0.95)}
+	100%{-webkit-transform:scale(1.00)}
+}
+@-moz-keyframes divzoom {
+    0%{-moz-transform:scale(0.01)}
+	60%{-moz-transform:scale(1.05)}
+	80%{-moz-transform:scale(0.95)}
+	100%{-moz-transform:scale(1.00)}
+}
+@-ms-keyframes divzoom {
+    0%{-ms-transform:scale(0.01)}
+	60%{-ms-transform:scale(1.05)}
+	80%{-ms-transform:scale(0.95)}
+	100%{-ms-transform:scale(1.00)}
+}
+@-o-keyframes divzoom {
+    0%{-o-transform:scale(0.01)}
+	60%{-o-transform:scale(1.05)}
+	80%{-o-transform:scale(0.95)}
+	100%{-o-transform:scale(1.00)}
+}
+
+/*上移*/
+@keyframes Upmove {
+    0% {top:200%;}
+    50% {top:70%;}
+    100% {top:70%;}
+}
+@-webkit-keyframes Upmove {
+    0% {top:200%;}
+    50% {top:70%;}
+    100% {top:70%;}
+}
+@-moz-keyframes Upmove {
+    0% {top:200%;}
+    50% {top:70%;}
+    100% {top:70%;}
+}
+@-ms-keyframes Upmove {
+    0% {top:200%;}
+    50% {top:70%;}
+    100% {top:70%;}
+}
+@-o-keyframes Upmove {
+    0% {top:200%;}
+    50% {top:70%;}
+    100% {top:70%;}
+}
+/*旋转*/
+@keyframes Circle {
+    100%{ transform:rotate(360deg);}
+}
+@-webkit-keyframes Circle {
+    100%{ -webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes Circle {
+    100%{ -moz-transform:rotate(360deg);}
+}
+@-ms-keyframes Circle {
+    100%{ -ms-transform:rotate(360deg);}
+}
+@-o-keyframes Circle {
+    100%{ -o-transform:rotate(360deg);}
+}
+/*淡出*/
+@keyframes Fadein{
+    from {opacity:0;}to {opacity:1;}
+}
+@-webkit-keyframes Fadein{
+    from {opacity:0;}to {opacity:1;}
+}
+@-moz-keyframes Fadein{
+    from {opacity:0;}to {opacity:1;}
+}
+@-ms-keyframes Fadein{
+    from {opacity:0;}to {opacity:1;}
+}
+@-o-keyframes Fadein{
+    from {opacity:0;}to {opacity:1;}
+}
+/*翻转*/
+@keyframes Rock {
+    0%{transform:rotate(0deg);}
+    30%{transform:rotate(-10deg);}
+    60%{transform:rotate(10deg);}
+    100% {transform:rotate(0deg);}
+}
+@-webkit-keyframes Rock {
+    0%{transform:rotate(0deg);}
+    30%{transform:rotate(-10deg);}
+    60%{transform:rotate(10deg);}
+    100% {transform:rotate(0deg);}
+}
+@-moz-keyframes Rock {
+    0%{transform:rotate(0deg);}
+    30%{transform:rotate(-10deg);}
+    60%{transform:rotate(10deg);}
+    100% {transform:rotate(0deg);}
+}
+@-ms-keyframes Rock {
+    0%{transform:rotate(0deg);}
+    30%{transform:rotate(-10deg);}
+    60%{transform:rotate(10deg);}
+    100% {transform:rotate(0deg);}
+}
+@-o-keyframes Rock {
+    0%{transform:rotate(0deg);}
+    30%{transform:rotate(-10deg);}
+    60%{transform:rotate(10deg);}
+    100% {transform:rotate(0deg);}
+}
+/*缩放*/
+@keyframes Scale {
+    0%{ transform:scale(1.1,1.1);}
+}
+@-webkit-keyframes Scale {
+    0%{ -webkit-transform:scale(1.1,1.1);}
+}
+@-moz-keyframes Scale {
+    0%{ -moz-transform:scale(1.1,1.1);}
+}
+@-ms-keyframes Scale {
+    0%{ -ms-transform:scale(1.1,1.1);}
+}
+@-o-keyframes Scale {
+    0%{ -o-transform:scale(1.1,1.1);}
+}
+/*放大*/
+@keyframes ZoomIn {
+    0%{transform:scale(0)}
+	100%{transform:scale(1.0)}
+}
+@-webkit-keyframes ZoomIn{
+    0%{transform:scale(0)}
+	100%{transform:scale(1.0)}
+}
+@-moz-keyframes ZoomIn {
+    0%{transform:scale(0)}
+	100%{transform:scale(1.0)}
+}
+@-ms-keyframes ZoomIn {
+    0%{transform:scale(0)}
+	100%{transform:scale(1.0)}
+}
+@-o-keyframes ZoomIn {
+    0%{transform:scale(0)}
+	100%{transform:scale(1.0)}
+}
+/*翻转*/
+@keyframes Overturn {
+    0%{transform:scale(0,1.0)}
+}
+@-webkit-keyframes Overturn{
+    0%{-webkit-transform:scale(0,1.0)}
+}
+@-moz-keyframes Overturn {
+    0%{-moz-transform:scale(0,1.0)}
+}
+@-ms-keyframes Overturn {
+    0%{-ms-transform:scale(0,1.0)}
+}
+@-o-keyframes Overturn {
+    0%{-o-transform:scale(0,1.0)}
+}
+
+/*向下跳跃*/
+@keyframes JumpDown {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-webkit-keyframes JumpDown {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-moz-keyframes JumpDown {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-o-keyframes JumpDown {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+/*向上跳跃*/
+@keyframes JumpUp {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-webkit-keyframes JumpUp {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-moz-keyframes JumpUp {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+@-o-keyframes JumpUp {
+    0% {top:0;}
+    50% {top:2px;}
+    100% {top:0;}
+}
+/*向左跳跃*/
+@keyframes JumpLeft {
+    0% {left:0;}
+    50% {left:2px;}
+    100% {left:0;}
+}
+@-webkit-keyframes JumpLeft {
+    0% {left:0;}
+    50% {left:2px;}
+    100% {left:0;}
+}
+@-moz-keyframes JumpLeft {
+    0% {left:0;}
+    50% {left:2px;}
+    100% {left:0;}
+}
+@-o-keyframes JumpLeft {
+    0% {left:0;}
+    50% {left:2px;}
+    100% {left:0;}
+}
+/*向右跳跃*/
+@keyframes JumpRight {
+    0% {right:0;}
+    50% {right:2px;}
+    100% {right:0;}
+}
+@-webkit-keyframes JumpRight {
+    0% {right:0;}
+    50% {right:2px;}
+    100% {right:0;}
+}
+@-moz-keyframes JumpRight {
+    0% {right:0;}
+    50% {right:2px;}
+    100% {right:0;}
+}
+@-o-keyframes JumpRight {
+    0% {right:0;}
+    50% {right:2px;}
+    100% {right:0;}
+}

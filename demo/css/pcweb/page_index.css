@@ -1,0 +1,215 @@
+.page_index{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+.s_title{
+	width:30%;
+	margin:8% auto 2rem;
+}
+.s_note{
+	color:#fff;
+	text-align:center;
+	font-size:2rem;
+	font-weight:bold;
+	margin-bottom:3rem;
+}
+.s_mes{
+	position:absolute;
+}
+.mes_1{
+	top:40%;
+	left:10%;
+}
+.mes_2{
+	top:40%;
+	right:15%;
+}
+.mes_3{
+	top:65%;
+	left:15%;
+}
+.mes_4{
+	top:65%;
+	right:15%;
+}
+
+.s_icon{
+	width:10rem;
+	height:10rem;
+	background:url(../../img/img2.png) no-repeat;
+	background-size:40rem;
+	vertical-align:top;
+	display:inline-block;
+}
+.s_icon_1{
+	background-position:-20rem 0;
+}
+.s_icon_2{
+	background-position:-30rem 0;
+}
+.s_icon_3{
+	background-position:0 0;
+}
+.s_icon_4{
+	background-position:-10rem 0;
+}
+.mes_text{
+	//float:left;
+	margin-left: 2rem;
+	display:inline-block;
+}
+.mes_text h6{
+	color:#fff;
+	font-size:2rem;
+	line-height:2;
+	font-weight:bold;
+}
+.mes_text span{
+	color:red;
+	font-size:5rem;
+	line-height:1;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.wrap_2{
+	opacity:1;
+}
+.quan_01{
+	width:680px;height:680px;
+	position:absolute;
+	top:50%;left:50%;
+	margin:-340px 0 0 -340px;
+	z-index:5;
+	-webkit-animation:rotate_x 10s linear 0s infinite;
+	animation:rotate_x 10s linear 0s infinite;
+}
+.quan_02{
+	width:820px;height:820px;
+	position:absolute;top:50%;left:50%;
+	margin:-410px 0 0 -410px;
+	z-index:6;
+	-webkit-animation:rotate 16s linear 0s infinite;
+	animation:rotate 16s linear 0s infinite;
+}
+.erwei{
+	width:700px;height:700px;
+	padding-top:44px;
+	background:url(../../img/s.png) center center no-repeat;
+	background-size: 80% 80%;
+	position:absolute;left:50%;top:50%;
+	z-index:1;
+	margin:-330px 0 0 -350px;
+}
+.erwei img{
+	margin:2rem auto 1.5rem; 
+}
+.erwei *{
+	color:#fff;
+	text-align: center;
+}
+.erwei h1{
+	font-weight:900;
+}
+.header {
+	font-size:4.5rem;
+	line-height:1.2;
+	background:url(../../img/b.png) no-repeat left top;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.t_hot{
+	font-size:3rem; 
+	color: #c43838;
+	text-shadow: -1px -1px #fff, 1px 1px #ccc;
+}
+.blink{
+    animation: blink .8s linear infinite;  
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: blink .8s linear infinite;
+    -moz-animation: blink .8s linear infinite;
+    -ms-animation: blink .8s linear infinite;
+    -o-animation: blink .8s linear infinite;
+}
+@-webkit-keyframes rotate{
+	0%{-webkit-transform:rotateZ(-45deg)}
+	100%{-webkit-transform:rotateZ(315deg)}
+}
+@keyframes rotate{
+	0%{transform:rotateZ(-45deg)}
+	100%{transform:rotateZ(315deg)}
+}
+@-webkit-keyframes rotate_x{
+	0%{-webkit-transform:rotateZ(45deg)}
+	100%{-webkit-transform:rotateZ(-315deg)}
+}
+@keyframes rotate_x{
+	0%{transform:rotateZ(45deg)}
+	100%{transform:rotateZ(-315deg)}
+}
+
+/* 定义keyframe动画，命名为blink */
+
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 1;}
+  50.01%{opacity: 0;} /* 注意这里定义50.01%立刻透明度为０，可以设置闪烁效果 */
+  100%{opacity: 0;} 
+}
+
+/* 添加兼容性前缀 */
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
